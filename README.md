@@ -4,10 +4,10 @@ This program calculates the Minimum Edit Distance (also known as Levenshtein dis
 
 ## Features
 -   **Dynamic Programming Table:** Computes and displays the full dynamic programming table.
--   **Detailed Calculation Steps:** For each cell in the table, it shows the "by hand" calculation, including the contributing neighboring cells and their associated costs.
+-   **Detailed Calculation Steps:** For each cell in the table, it shows the by  calculation, including the contributing neighboring cells and their associated costs.
 -   **Configurable Costs:** Choose between standard Levenshtein costs, a custom set of costs, or an alternative set of costs (Sub=2, Ins/Del=1).
 -   **Visual Traceback:** Highlights the optimal path through the distance matrix with shaded cells.
--   **Operation Arrows:** Displays arrows (↖, ↑, ←) within each cell to indicate the optimal preceding operation (Substitution/Match, Deletion, Insertion).
+-   **Operation Arrows:** Displays arrows within each cell to indicate the optimal preceding operation (Substitution/Match, Deletion, Insertion).
 -   **Unicode Support:** Optimized for display in terminals, including Windows.
 
 ## Installation
@@ -26,7 +26,7 @@ This program calculates the Minimum Edit Distance (also known as Levenshtein dis
     cd LevMED
 4.  Run the script using Python:
     ```bash
-    main.py
+    python main.py
     ```
 5.  Follow the on-screen prompts to choose your desired cost configuration and enter the source and target words.
 
